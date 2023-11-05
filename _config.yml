@@ -30,9 +30,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  rhart9
 
 # Build settings
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: rhart9/cayman-blog
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
